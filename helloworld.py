@@ -1,1 +1,2 @@
-prin("Hello Jenkins")
+print("Hello Jenkins")
+print("Working from Git Hub")
