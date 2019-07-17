@@ -1,0 +1,21 @@
+pipeline {
+    agent any
+    stages {
+        stage('build_Job') {
+            steps {
+                sh 'echo "hello"'
+            }
+        }
+        stage('Testing_Job') {
+            steps {
+                sh 'python3 --help'
+	        }	
+        }
+        stage('Deploying_Job') {
+            steps {
+                sh 'echo "Bye"'
+            }
+        }
+    }
+}
+
